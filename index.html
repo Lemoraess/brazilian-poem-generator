@@ -5,28 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Brazilian AI Poem Generator</title>
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to the AI Brazilian Poem Generator</h1>
-    </header>
-    <main>
-        <input type="text" placeholder="Enter the topic of the Brazilian poem" autofocus required autocomplete="off">
-        <input type="submit" value="Enter">
-        <div>
-            A paz invadiu o meu coração
-            <br />
-            De repente se encheu de paz.
-        </div>
-    </main>
+    <div class="container">
+        <header class="header">
+            <h1>Welcome to the AI Brazilian Poem Generator</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the Brazilian poem" autofocus required
+                    autocomplete="off" class="inputBox">
+                <input type="submit" value="Enter" class="inputButton">
+            </form>
+            <div class="poem">
+                A paz invadiu o meu coração
+                <br />
+                De repente se encheu de paz.
+            </div>
+        </main>
 
-    <footer>Coded by <a href="https://github.com/Lemoraess" target="_blank">Lenise Moraes</a> as part of the <a
-            href="https://www.shecodes.io/" target="_blank"> SheCodes</a> Plus AI course training, is open-sourced on <a
-            href="https://github.com/Lemoraess/brazilian-poem-generator" target="_blank"> GitHub</a> and hosted on <a
-            href="https://brazilianaigeneratepoem.netlify.app/" target="_blank">Netlify</a></footer>
-    <script src="src/script.js"></script>
+        <footer>
+            <div class="footer"> Coded by <a href="https://github.com/Lemoraess" target="_blank">Lenise Moraes</a> as
+                part of
+                the <a href="https://www.shecodes.io/" target="_blank"> SheCodes</a> Plus AI course training, is
+                open-sourced
+                on <a href="https://github.com/Lemoraess/brazilian-poem-generator" target="_blank"> GitHub</a> and
+                hosted on
+                <a href="https://brazilianaigeneratepoem.netlify.app/" target="_blank">Netlify</a>
+            </div>
+            <div> <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/299/original/Image_16-04-25_at_19.15.jpg?1744842734"
+                    alt="Iara, brazilian mermaid mith" title="Iara, brazilian mermaid mith" class="imageFooter"></div>
+        </footer>
+        <script src="src/script.js"></script>
+    </div>
 </body>
 
 </html>

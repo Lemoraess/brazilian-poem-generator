@@ -1,3 +1,59 @@
 body {
-  background: plum;
+  background: rgb(197, 198, 197);
+  font-family: "Work Sans", sans-serif;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: rgba(185, 182, 182, 0.8);
+  padding: 80px 30px;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.inputBox {
+  padding: 30px;
+  width: 60%;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.inputButton {
+  padding: 30px;
+  width: 20%;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  background-color: plum;
+}
+
+.poem {
+  padding: 35px;
+  background-color: rgba(185, 182, 182);
+  border-left: 3px solid plum;
+  border-radius: 10px;
+}
+.footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.imageFooter {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
 }
