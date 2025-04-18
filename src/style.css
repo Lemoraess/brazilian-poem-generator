@@ -1,5 +1,6 @@
 body {
-  background: rgb(197, 198, 197);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/444/original/vecteezy_close-up-plant-tree-green-leaf-small-leaves-bush-with_8726376.JPG?1744976008");
+  background-repeat: no-repeat;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -7,6 +8,10 @@ form {
   padding: 30px;
   display: flex;
   justify-content: space-around;
+}
+
+a {
+  color: #551b8b;
 }
 
 .header {
@@ -17,10 +22,10 @@ form {
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: rgba(185, 182, 182, 0.8);
+  background-color: rgba(220, 220, 126, 0.6);
   padding: 80px 30px;
   border-radius: 20px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.6);
 }
 
 .inputBox {
@@ -37,13 +42,13 @@ form {
   border-radius: 20px;
   border: none;
   font-size: 16px;
-  background-color: plum;
+  background-color: orange;
 }
 
 .poem {
   padding: 35px;
-  background-color: rgba(185, 182, 182);
-  border-left: 3px solid plum;
+  background-color: rgba(103, 111, 198, 0.6);
+  border-left: 3px solid orange;
   border-radius: 10px;
 }
 .footer {

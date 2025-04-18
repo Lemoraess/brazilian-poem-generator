@@ -1,4 +1,7 @@
-<script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+function generatePoem(event) {
+  event.preventDefault();
+  alert("hi)");
+}
+
+let poemFormGenerator = document.querySelector("#generatorPoem");
+poemFormGenerator.addEventListener("submit", generatePoem);
