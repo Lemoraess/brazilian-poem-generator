@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Brazilian AI Poem Generator</title>
 </head>
 
@@ -18,13 +19,19 @@
             <h1>Welcome to the AI Brazilian Poem Generator</h1>
         </header>
         <main>
-            <form id="generatorPoem">
-                <input type="text" placeholder="Enter the topic of the Brazilian poem" autofocus required
-                    autocomplete="off" class="inputBox" id="inputBox">
-                <input type="submit" value="Enter" class="inputButton">
-            </form>
-            <div class="poem" id="poem">
+            <div class="formContainer">
+                <form id="generatorPoem">
+                    <input type="text" placeholder="Enter the topic of the Brazilian poem" autofocus required
+                        autocomplete="off" class="inputBox" id="inputBox">
+                    <input type="submit" value="Enter" class="inputButton">
+                </form>
+                <div class="example">i.e. Day, Heart or Samba</div>
+
             </div>
+            <div class="poem hidden" id="poem">
+            </div>
+
+
         </main>
 
         <footer>
